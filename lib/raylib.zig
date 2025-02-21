@@ -2311,8 +2311,8 @@ pub fn traceLog(logLevel: TraceLogLevel, text: [*:0]const u8, args: anytype) voi
     comptime {
         const info = @typeInfo(@TypeOf(args));
         switch (info) {
-            .Struct => {
-                if (!info.Struct.is_tuple)
+            .@"struct" => {
+                if (!info.@"struct".is_tuple)
                     @compileError("Args should be in a tuple (call this function like traceLog(.{arg1, arg2, ...});)!");
             },
             else => {
