@@ -4,20 +4,20 @@
     .fingerprint = 0xc4cfa8c610114f28,
     .dependencies = .{
         .raylib = .{
-            .url = "git+https://github.com/raysan5/raylib#f36533cbd8feead845a2e0b4568ec0484a15cd10",
-            .hash = "raylib-5.6.0-dev-whq8uGJqKQUEDd38DCov-XG29PYzw3kM_LNbPUkcDGyM",
+            .url = "git+https://github.com/myQwil/raylib#91a7dfd886b079bc5031d6fddc09e02aef5d2dec",
+            .hash = "raylib-5.6.0-dev-whq8uFcwLgV96plAnj_IChnTWtUGk-f-k48WlPEyfMkN",
         },
         .raygui = .{
             .url = "git+https://github.com/raysan5/raygui#3b2855842ab578a034f827c38cf8f62c042fc983",
             .hash = "N-V-__8AAHvybwBw1kyBGn0BW_s1RqIpycNjLf_XbE-fpLUF",
         },
         .emsdk = .{
-            .url = "git+https://github.com/emscripten-core/emsdk#4.0.9",
-            .hash = "N-V-__8AAJl1DwBezhYo_VE6f53mPVm00R-Fk28NPW7P14EQ",
+            .url = "git+https://github.com/emscripten-core/emsdk#5.0.0",
+            .hash = "N-V-__8AAFkIEABHCzhWh7s5FZN-DraLYdHuW1kbdwyip82c",
         },
         .zemscripten = .{
-            .url = "git+https://github.com/zig-gamedev/zemscripten?ref=main#00da03b188220374a57cb34cda6230b8d53737ea",
-            .hash = "zemscripten-0.2.0-dev-sRlDqFJSAAB8hgnRt5DDMKP3zLlDtMnUDwYRJVCa5lGY",
+            .url = "git+https://github.com/myQwil/zemscripten?ref=main#fc2fddc61cfdaf3756bd02123f74f976ad6c8e40",
+            .hash = "zemscripten-0.2.0-dev-sRlDqLVQAAA8HzUz1izfdgiQG-DvDjp0cRLnXG-FfkeN",
         },
     },
     .minimum_zig_version = "0.16.0-dev.3070+b22eb176b",
